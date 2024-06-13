@@ -22,7 +22,7 @@ Agradecemos ao canal [Dev em Dobro](https://www.youtube.com/c/DevEmDobro) por pr
 
 ---
 
-Esperamos que você goste do projeto! Para qualquer dúvida ou sugestão, sinta-se à vontade para entrar em contato.
+Espero que você goste do projeto! Para qualquer dúvida ou sugestão, sinta-se à vontade para entrar em contato.
 
 
 
