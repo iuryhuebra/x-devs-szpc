@@ -4,20 +4,24 @@ let cartaoAtual = 0;
 const cartoes = document.querySelectorAll(".cartao");
 
 btnAvancar.addEventListener("click", function () {
-    if (cartaoAtual === cartoes.length - 1) return;
-
+    if (cartaoAtual === cartoes.length - 1) {   
+        cartaoAtual = 0;
+    } else {
+        cartaoAtual++;
+    }
+    
     esconderCartaoSelecionado();
-
-    cartaoAtual++;
     cartoes[cartaoAtual].classList.add("selecionado");
 })
 
 btnVoltar.addEventListener("click", function () {
-    if (cartaoAtual === 0) return;
+    if (cartaoAtual === 0) {
+        cartaoAtual = cartoes.length - 1;
+    } else {
+        cartaoAtual--;        
+    }
 
     esconderCartaoSelecionado();
-
-    cartaoAtual--;
     cartoes[cartaoAtual].classList.add("selecionado");
 })
 
